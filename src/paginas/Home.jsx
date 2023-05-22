@@ -14,11 +14,13 @@ const Home = () => {
       </h3>
       <hr />
       <h3>
-        <Link>Arkanoid</Link>- Por Abdahi Salvador Huerta Chaverria
+        <Link to="/juego/arkanoid">Arkanoid</Link>- Por Abdahi Salvador Huerta
+        Chaverria
       </h3>
       <hr />
       <h3>
-        <Link>Whac-a-Mole</Link>- Por Francisco Javier Palomo García
+        <Link to="/juego/whac">Whac-a-Mole</Link>- Por Francisco Javier Palomo
+        García
       </h3>
       <hr />
       <h3>
