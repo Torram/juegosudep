@@ -1,0 +1,32 @@
+.grid {
+  width: 100%;
+  max-width: 600px; /* Cambia este valor según tus necesidades */
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  justify-content: center;
+  gap: 10px;
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 100%; /* Establece un padding-bottom del 100% para mantener la forma cuadrada */
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.juego {
+  background-color: limegreen;
+  width: 100%;
+  max-width: 50%; /* Cambia este valor según tus necesidades */
+  height: auto;
+}

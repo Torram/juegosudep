@@ -1,0 +1,42 @@
+/* definición de variables de colores */
+* {
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.juego {
+  width: 99%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+canvas {
+  border: 2px #333 solid;
+  background-color: #eee;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url("/public/logoudep1.png");
+}
+
+#audio {
+  display: none;
+}
+
+#iniciar {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ff4500;
+  background-color: #efefef;
+  border: none;
+  border-radius: 10px;
+  top: 300px;
+  width: 200px;
+  height: 40px;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#iniciar:hover {
+  color: #efefef;
+  background-color: rgba(25, 25, 112);
+}
